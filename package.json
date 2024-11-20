@@ -1,0 +1,17 @@
+{
+	"name": "npm",
+	"version": "1.0.0",
+	"description": "![Design preview for the Social links profile coding challenge](./preview.jpg)",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon -e scss -x \"npm run sass\"",
+		"sass": "sass sass/main.scss css/style.css --no-source-map"
+	},
+	"author": "",
+	"license": "ISC",
+	"keywords": [],
+	"devDependencies": {
+		"nodemon": "^3.1.7",
+		"sass": "^1.81.0"
+	}
+}

@@ -1,0 +1,12 @@
+@mixin flex-settings($justify: center, $align: center, $direction: row) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+
+@mixin text-style($size, $weight: normal, $line-height: 150%) {
+	font-size: $size;
+	font-weight: $weight;
+	line-height: $line-height;
+}
